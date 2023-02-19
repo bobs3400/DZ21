@@ -1,0 +1,15 @@
+﻿Console.Clear();
+Console.WriteLine("Введите коордитнаты первой точки");
+int x1 = int.Parse(Console.ReadLine());
+int y1 = int.Parse(Console.ReadLine());
+int z1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите коордитнаты второй точки");
+int x2 = int.Parse(Console.ReadLine());
+int y2 = int.Parse(Console.ReadLine());
+int z2 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите коордитнаты третьей точки");
+int x3 = int.Parse(Console.ReadLine());
+int y3 = int.Parse(Console.ReadLine());
+int z3 = int.Parse(Console.ReadLine());
+double rast = Math.Sqrt((x1-x2) * (x1-x2) + (y1-y2) * (y1-y2) + (z1-z2) * (z1-z2));
+Console.WriteLine($"{rast:f3}");
